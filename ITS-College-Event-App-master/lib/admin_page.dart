@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 
 class PastEventPage extends StatefulWidget {
@@ -15,6 +16,17 @@ class _PastEventPageState extends State<PastEventPage> {
         backgroundColor: Color(0xff25bcbb),
       ),
       backgroundColor: Color(0xff18203d),
+      body: Center(
+        child: Text(
+          "Will be \n Updated Soon!!",
+          style:
+            GoogleFonts.swankyAndMooMoo(
+              fontSize: 45.0,
+              fontWeight: FontWeight.bold,
+              color: Colors.cyanAccent
+            )
+        )
+      ),
     );
   }
 }
