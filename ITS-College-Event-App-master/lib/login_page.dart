@@ -146,7 +146,7 @@ class _LoginPageState extends State<LoginPage> {
 //                ),
 //                textColor: Colors.white,
 //              ),
-              SizedBox(height: 80),
+              SizedBox(height: 120),
               _buildFooterLogo(),
 
             ],
@@ -165,7 +165,7 @@ class _LoginPageState extends State<LoginPage> {
 //          'assets/tgd_white.png',
 //          height: 40,
 //        ),
-        Text('Develop by \n Neha Aggarwal',
+        Text('Developed by \n Neha Aggarwal and Ammar Ammen',
             textAlign: TextAlign.center,
             style: GoogleFonts.openSans(
               color: Colors.white,
