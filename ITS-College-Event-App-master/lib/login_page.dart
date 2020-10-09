@@ -165,7 +165,7 @@ class _LoginPageState extends State<LoginPage> {
 //          'assets/tgd_white.png',
 //          height: 40,
 //        ),
-        Text('Developed by \n Neha Aggarwal and Ammar Ammen',
+        Text('Developed by \n Neha Aggarwal and Ammar Ameen',
             textAlign: TextAlign.center,
             style: GoogleFonts.openSans(
               color: Colors.white,
